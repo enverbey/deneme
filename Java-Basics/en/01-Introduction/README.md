@@ -85,9 +85,7 @@ In summary, `System.out.println` can be read as:
 
 ---
 
-## 📧 Contact Information
-
-If you have any questions or need assistance, feel free to reach out to me:
+## Contact Information
 
 📧 **Email:** [enverbey1534@gmail.com](mailto:enverbey1534@gmail.com)
 
