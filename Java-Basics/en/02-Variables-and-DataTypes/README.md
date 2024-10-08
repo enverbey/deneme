@@ -33,10 +33,6 @@ Choosing the correct data type is crucial as it affects the amount of memory all
 
 ---
 
-Güzel bir yapı oluşturmuşsun! İlgili kısmı güncelleyelim ve içeriği biraz daha zenginleştirelim. İşte önerilen güncelleme:
-
----
-
 In the next files, we will:
 
 Explore the fundamental variables in Variables.java.
