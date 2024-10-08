@@ -26,7 +26,7 @@ Data types define the type of data that can be stored in a variable. In Java, th
 
 2. **Reference Data Types**: These refer to objects or arrays and are not defined by the primitive types. For example:
    - `String`: Represents a sequence of characters (e.g., "Hello").
-   - Arrays: A collection of elements of the same type.
+
 
 ### 💡 Importance of Data Types
 Choosing the correct data type is crucial as it affects the amount of memory allocated and the operations that can be performed on that data.
