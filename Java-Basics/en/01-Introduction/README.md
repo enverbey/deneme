@@ -34,7 +34,21 @@ public class HelloWorld {
 }
 ```
 
-Let's break it down and understand the key parts of this code:
+### 🧐 Code Explanation:
+
+1. **`public class HelloWorld`**:
+   - **`public`**: This access modifier means that the class can be accessed by any other class. In Java, classes can be defined as `public`, `private`, or `protected`.
+   - **`class`**: This keyword is used to declare a class. A class serves as a blueprint for creating objects, defining their properties and behaviors.
+   - **`HelloWorld`**: This is the name of the class. By convention, class names in Java should start with an uppercase letter.
+
+2. **`public static void main(String[] args)`**:
+   - **`public`**: This signifies that the method can be called from outside the class. The `main` method must be public so that the Java Virtual Machine (JVM) can access it.
+   - **`static`**: This means that the method belongs to the class itself rather than to instances of the class. You can call a static method without creating an object of the class.
+   - **`void`**: This indicates that the method does not return any value.
+   - **`main`**: This is the name of the method that serves as the entry point for any Java application. When you run a Java program, the JVM looks for the `main` method to start executing the program.
+   - **`String[] args`**: This is an array of `String` arguments that can be passed to the program from the command line. If you run the program with arguments, they will be available in this array.
+
+### 🖥️ Let's break down the program:
 
 - **`System`**: This refers to the **System** class in the `java.lang` package, which provides several useful methods and fields. In our case, we are using `System` to access the **standard output stream**.
 
@@ -44,16 +58,18 @@ Let's break it down and understand the key parts of this code:
 
 ### 🤓 How does `System.out.println` work?
 When you call `System.out.println()`, it works like this:
-- `System`: The class that gives us access to useful resources like input, output, and error streams.
-- `out`: A static member of `System` that represents the standard output (usually the console).
-- `println`: The method that prints a string (or other data types) and moves to the next line.
+- **`System`**: The class that gives us access to useful resources like input, output, and error streams.
+- **`out`**: A static member of `System` that represents the standard output (usually the console).
+- **`println`**: The method that prints a string (or other data types) and moves to the next line.
 
 In summary, `System.out.println` can be read as:
 - "Access the `System` class."
 - "Use the `out` field to access the output stream."
 - "Call the `println` method to print a message."
 
----
+
+--- 
+
 
 ## 💡 Additional Notes:
 - Java is **case-sensitive**, so be sure to write `System.out.println` exactly as shown.
