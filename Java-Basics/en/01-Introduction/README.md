@@ -73,7 +73,7 @@ In summary, `System.out.println` can be read as:
 
 If you have any questions or need assistance, feel free to reach out to me:
 
-📧 **Email:** [enverbey1534@gmail.com](enverbey153@gmail.com)
+📧 **Email:** [enverbey1534@gmail.com](mailto:enverbey1534@gmail.com)
 
 ---
 
