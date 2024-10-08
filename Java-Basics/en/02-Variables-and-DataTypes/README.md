@@ -33,10 +33,20 @@ Choosing the correct data type is crucial as it affects the amount of memory all
 
 ---
 
+Güzel bir yapı oluşturmuşsun! İlgili kısmı güncelleyelim ve içeriği biraz daha zenginleştirelim. İşte önerilen güncelleme:
+
+---
+
+In the next files, we will:
+
+Explore the fundamental variables in Variables.java.
+Take a closer look at the String class in DataTypes.java.
+Stay tuned!
+
 ## 📝 Next Steps
 
 In the next files, we will:
 - Explore how to declare and use variables in **Variables.java**.
-- Delve deeper into the different data types in **DataTypes.java**.
+- Take a closer look at the String class in **DataTypes.java**.
 
 Stay tuned!
