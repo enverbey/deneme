@@ -32,11 +32,10 @@ This folder focuses on file input and output operations in Java. Understanding h
    - This file showcases how to use the Scanner class to read user input from the console.
 
    **Example Code:**
-   ```
+   ```java
    Scanner scanner = new Scanner(System.in);
    System.out.print("Enter your age: ");
    int age = scanner.nextInt(); // Reads an integer value from user input
-
    System.out.println("You are " + age + " years old.");
    scanner.close(); // Close the scanner
    ```
