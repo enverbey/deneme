@@ -2,6 +2,8 @@
 
 This folder focuses on exception handling in Java, which is crucial for developing robust applications. Exceptions are events that disrupt the normal flow of a program's execution. Understanding how to handle these exceptions helps ensure that your program can respond gracefully to errors. Below are the provided files, their functionalities, and relevant exercises.
 
+Note: You may not be familiar with inheritance concepts yet. If you find the CustomExceptionExample.java file challenging to understand, do not spend too much time on it—feel free to move on and revisit it later.
+
 ### Files and Functionality
 
 #### 1. TryCatchExample.java 🛠️
