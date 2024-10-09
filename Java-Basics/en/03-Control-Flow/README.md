@@ -1,45 +1,46 @@
 ## 03-Control-Flow 🚦
 
-Bu klasör, Java'nın kontrol yapıları olan `if-else`, döngüler (`for`, `while`, `do-while`) ve `switch` yapılarını öğrenmek için temel rehberdir. 👨‍💻 Bu yapılar, programın akışını yönetmenizi sağlar ve belirli koşullara göre farklı yollar izlemenize yardımcı olur. Aşağıdaki dosyalar, bu yapıları örnekler ve egzersizlerle açıklamaktadır.
-### 📝 İçerik
+This folder serves as a basic guide for learning control structures in Java such as `if-else`, loops (`for`, `while`, `do-while`), and `switch`. 👨‍💻 These structures allow you to control the flow of your program and make decisions based on specific conditions. The following files provide examples and exercises to explain these structures.
+
+### 📝 Contents
 
 ### 1. IfElseExample.java ❓🔀
 
-**If-else yapısı**, belirli koşullara göre farklı işlemler gerçekleştirmeyi sağlar. Eğer bir koşul doğruysa bir blok çalışır, aksi halde başka bir blok çalışır.
+The **if-else structure** allows for performing different actions based on conditions. If a condition is true, a specific block is executed, otherwise another block runs.
 
-**Örnek Kod:**
+**Example Code:**
 ```java
 int number = 10;
 
 if (number > 0) {
-    System.out.println("Sayı pozitiftir.");
+    System.out.println("The number is positive.");
 } else if (number == 0) {
-    System.out.println("Sayı sıfırdır.");
+    System.out.println("The number is zero.");
 } else {
-    System.out.println("Sayı negatiftir.");
+    System.out.println("The number is negative.");
 }
 ```
 
-🧑‍🏫 **Açıklama:** Bu örnekte, `if-else` yapısı ile bir sayının pozitif, negatif ya da sıfır olup olmadığını kontrol ediyoruz.
+🧑‍🏫 **Explanation:** In this example, the `if-else` structure checks whether a number is positive, negative, or zero.
 
-🎯 **Egzersiz:**
-- Bir sayı girip pozitif mi negatif mi olduğunu yazdıran bir program yazın.
-- Kullanıcının yaşına göre "Çocuk", "Genç" ya da "Yetişkin" olduğunu belirleyen bir program geliştirin.
+🎯 **Exercise:**
+- Write a program that takes a number as input and prints whether it's positive, negative, or zero.
+- Write a program that determines if the user is a "Child," "Teenager," or "Adult" based on their age.
 
 ---
 
 ### 2. Loops.java 🔄
 
-**Döngüler** belirli bir işlemi tekrar tekrar gerçekleştirmek için kullanılır. Java'da en yaygın kullanılan döngüler `for`, `while` ve `do-while` döngüleridir.
+**Loops** are used to repeatedly execute a block of code. The most common loops in Java are `for`, `while`, and `do-while`.
 
-**Örnek Kod (For Döngüsü):**
+**Example Code (For Loop):**
 ```java
 for (int i = 1; i <= 5; i++) {
     System.out.println(i);
 }
 ```
 
-**Örnek Kod (While Döngüsü):**
+**Example Code (While Loop):**
 ```java
 int i = 1;
 while (i <= 5) {
@@ -48,7 +49,7 @@ while (i <= 5) {
 }
 ```
 
-**Örnek Kod (Do-While Döngüsü):**
+**Example Code (Do-While Loop):**
 ```java
 int j = 1;
 do {
@@ -57,44 +58,45 @@ do {
 } while (j <= 5);
 ```
 
-🧑‍🏫 **Açıklama:** `for` döngüsü genellikle belirli sayıda tekrar yapmak için kullanılırken, `while` ve `do-while` döngüleri belirli bir koşul doğru olduğu sürece çalışır.
+🧑‍🏫 **Explanation:** The `for` loop is often used when the number of iterations is known, while `while` and `do-while` loops continue as long as a condition is true.
 
-🎯 **Egzersiz:**
-- 1'den 100'e kadar olan tek sayıları bulan bir program yazın.
-- Girilen bir sayıya kadar olan tüm sayıların çarpımını bulan bir program yazın.
+🎯 **Exercise:**
+- Write a program that prints all odd numbers from 1 to 100.
+- Write a program that calculates the product of all numbers up to a given number.
 
 ---
 
 ### 3. SwitchExample.java 🔀💡
 
-**Switch yapısı**, bir değişkenin değerine göre farklı kod bloklarını çalıştırmayı sağlar. Çok sayıda if-else yerine daha düzenli bir yapı sunar.
+The **switch structure** allows for executing different code blocks based on the value of a variable. It provides a cleaner alternative to multiple if-else statements.
 
-**Örnek Kod:**
+**Example Code:**
 ```java
 int day = 3;
 switch (day) {
     case 1:
-        System.out.println("Pazartesi");
+        System.out.println("Monday");
         break;
     case 2:
-        System.out.println("Salı");
+        System.out.println("Tuesday");
         break;
     case 3:
-        System.out.println("Çarşamba");
+        System.out.println("Wednesday");
         break;
     default:
-        System.out.println("Geçersiz gün!");
+        System.out.println("Invalid day!");
 }
 ```
 
-🧑‍🏫 **Açıklama:** Bu örnekte, girilen gün numarasına göre haftanın günlerini yazdıran bir `switch` yapısı kullanıyoruz.
+🧑‍🏫 **Explanation:** In this example, the `switch` statement prints the day of the week based on the number input.
 
-🎯 **Egzersiz:**
-- Kullanıcıdan ay numarası alıp hangi mevsimde olduğunu yazdıran bir program geliştirin.
-- Bir menü oluşturarak kullanıcının seçimine göre farklı mesajlar veren bir program oluşturun.
+🎯 **Exercise:**
+- Create a program that asks for a month number and prints the corresponding season.
+- Develop a program that presents a menu to the user and prints different messages based on their selection.
 
 ---
 
-### 🌟 Genel Egzersizler 🎓
-1. **Hesap Makinesi Uygulaması**: Kullanıcıdan iki sayı ve bir işlem türü (toplama, çıkarma, çarpma, bölme) alarak sonucu hesaplayan bir program yazın.
-2. **Döngüyle Yıldız Deseni Çizimi**: Kullanıcıdan bir sayı alıp bu sayıya göre ekranda yıldız (*) karakteri ile şekiller çizin. Örneğin, üçgen ya da kare.
+### 🌟 General Exercises 🎓
+1. **Calculator Program**: Write a program that takes two numbers and an operation (addition, subtraction, multiplication, division) from the user and calculates the result.
+2. **Pattern Drawing with Loops**: Ask the user for a number and draw shapes (like a triangle or a square) using the `*` character based on the input.
+
