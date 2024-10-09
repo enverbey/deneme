@@ -27,19 +27,11 @@ This folder focuses on file input and output operations in Java. Understanding h
    **Key Methods:**
    - `write(String str)`: Writes a string to the file.
    - `newLine()`: Writes a new line to the file.
-   - `close()`: Closes the writer to free system resources.
-
-   **Exercise:**
-   - Create a program that prompts the user for their favorite quotes and writes them to a text file. You can allow multiple entries until the user types "exit".
-
----
 
 2. **ScannerExample.java** 📖
    - This file showcases how to use the Scanner class to read user input from the console.
 
    **Example Code:**
-
-      
    ```
    Scanner scanner = new Scanner(System.in);
    System.out.print("Enter your age: ");
